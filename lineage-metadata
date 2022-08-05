@@ -48,6 +48,7 @@ kernel_map[android_kernel_fairphone_sm7225]=4.19
 kernel_map[android_kernel_fxtec_msm8998]=4.4
 kernel_map[android_kernel_goldfish]=3.4
 kernel_map[android_kernel_google_barbet]=4.19
+kernel_map[android_kernel_google_bluejay]=5.10
 kernel_map[android_kernel_google_bonito]=4.9
 kernel_map[android_kernel_google_coral]=4.14
 kernel_map[android_kernel_google_crosshatch]=4.9
