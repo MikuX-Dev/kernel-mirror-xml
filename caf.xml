@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="caf"
-           fetch="https://source.codeaurora.org/quic/la/" />
+  <remote  name="clo"
+           fetch="https://git.codelinaro.org/clo/la/" />
   <default revision="master"
-           remote="caf"
+           remote="clo"
            sync-j="4" />
 
   <project name="kernel/msm" />
@@ -15,4 +15,5 @@
   <project name="kernel/msm-4.14" />
   <project name="kernel/msm-4.19" />
   <project name="kernel/msm-5.4" />
+  <project name="kernel/msm-5.10" />
 </manifest>
