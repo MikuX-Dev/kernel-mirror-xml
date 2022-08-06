@@ -42,6 +42,9 @@ for repo in "${!kernel_map[@]}"; do
 				5.4)
 					echo ${MIRROR_ROOT}/kernel/caf/kernel/msm-5.4.git/objects > LineageOS/$repo.git/objects/info/alternates
 					;;
+				5.10)
+					echo ${MIRROR_ROOT}/kernel/caf/kernel/msm-5.10.git/objects > LineageOS/$repo.git/objects/info/alternates
+					;;
 				*)
 					echo ${kernel_map[$repo]} "is not a valid CAF kernel version, falling back to AOSP"
 					echo ${MIRROR_ROOT}/kernel/aosp/kernel/common.git/objects > CalyxOS/$repo.git/objects/info/alternates
