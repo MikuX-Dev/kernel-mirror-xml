@@ -1,0 +1,17 @@
+declare -A kernel_map
+
+kernel_map[kernel_fairphone_sm7225]=4.19
+kernel_map[kernel_google_barbet]=4.19
+kernel_map[kernel_google_bluejay]=5.10
+kernel_map[kernel_google_bluejay-gki]=5.10
+kernel_map[kernel_google_coral]=4.14
+kernel_map[kernel_google_msm-4.14]=4.14
+kernel_map[kernel_google_msm-4.9]=4.9
+kernel_map[kernel_google_raviole]=5.10
+kernel_map[kernel_google_raviole-gki]=5.10
+kernel_map[kernel_google_redbull]=4.19
+kernel_map[kernel_google_sunfish]=4.14
+kernel_map[kernel_google_wahoo]=4.4
+kernel_map[kernel_oneplus_sm8250]=4.19
+kernel_map[kernel_oneplus_sm8350]=5.4
+kernel_map[kernel_xiaomi_jasmine_sprout]=4.4
